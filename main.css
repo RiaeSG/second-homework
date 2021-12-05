@@ -1,0 +1,324 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  margin: 0;
+  background-color: gray;
+  color: white;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, p{
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  background: transparent;
+  color: black;
+  padding: 0;
+  outline: none;
+  border: 1px, solid transparent;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 140px;
+  position: relative;
+}
+
+.logo, .menu, .contacts{
+  position: absolute;
+}
+
+.logo, .menu{ 
+  top: 34px;
+}
+
+.logo{
+  margin-right: 207px;
+}
+
+.menu{  
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contacts{ 
+  top: 26.64px;
+  right: 0px;
+}
+
+.menu__item{
+  display: inline-block;
+  margin-right: 54px;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+
+.main-title{
+  text-align: left;
+  margin-left: 305px;
+  margin-right: 404px;
+  margin-bottom: 193px;
+}
+
+.main-title__title{
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 21px;
+}
+
+.main-title__info{
+  margin-bottom: 94px;
+  font-size: 21px;
+}
+
+.main-title__examples{
+  font-size: 14px;
+  margin-bottom: 193px;
+}
+
+
+.week-news__conent-item{
+  display: inline-block;
+  background-color: white;
+  width: 305px;
+  height: 449px;
+  margin-top: 54px;
+  margin-right: 27px;
+  border-radius: 5px; 
+  color: black;
+}
+
+.week-news__conent-item:last-child{
+  margin-right: 0;
+}
+
+.week-news__last{
+  font-size: 36px;
+  margin-right: 9px;
+  
+}
+
+.week-news__name, .game-length, .week-news__example-preview, .week-news__desc, .week-news__time-icon{
+  padding-left: 22px;
+}
+
+.week-news__desc{
+  color: #303030;
+  ;
+}
+
+.week-news__name{
+  font-size: 24px;
+font-weight: 700;
+}
+
+.week-news__time-length{
+  font-size: 16px;
+  padding-left: 10px;
+  margin-right: 24px;
+  margin-top: 23px;
+}
+
+.week-news__q-a-icon{
+  margin-right: 10px;
+}
+
+.week-news__time-icon{
+  margin-top: 24px;
+}
+
+.week-news__desc{
+  font-size: 14px;
+  margin-top: 26.5px;
+}
+
+.button{
+  background: #8F00FF;
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  color: #FFFFFF;
+}
+
+.button--border{
+  border-color: #8F00FF;
+  background: transparent;
+  color: #8F00FF;
+}
+
+.week-news__example-preview{
+  margin-left: 22px;
+}
+
+
+.previous-games__title{
+  font-size: 36px;
+  margin-top: 127px;
+}
+
+.previous-games__content{
+  display: inline-block;
+  width: 557px;
+  position: relative;
+  margin-right: 10px;
+
+}
+
+
+.previous-games__content:last-child{
+  margin-right: 0px;
+}
+
+.previous-games__games-content{
+  position: absolute;
+  bottom: 0px;
+  left: 46px;
+  right: 76px;
+  bottom: 17px;
+}
+
+.previous-games__date-games{
+
+font-size: 14px;
+line-height: 21px;
+text-align: left;
+}
+
+.previous-games__subtitle{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.previous-games__news{
+  margin-top: 1px;
+}
+
+.paginator{
+  text-align: center;
+  margin-top: 57.5px;
+}
+
+.paginator__link, .paginator__display{
+  font-size: 16px;
+}
+
+.paginator__display, .paginator__list, .paginator__item{
+  display: inline-block;
+}
+
+.paginator__link{
+  background: #8F00FF;
+  color: #FFFFFF;
+  padding: 5px 11px;
+  border-radius: 50%;
+}
+
+.about{
+  margin-top: 131.5px;
+}
+
+.about__img, .about__content{ 
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__title{
+  font-size: 36px;
+}
+
+.about__text{
+  padding-top: 37px;
+  font-size: 16px;
+}
+
+.about__title, .about__text{
+  padding-left: 81px;
+}
+
+
+.about__content{
+  background: linear-gradient(#8F00FF, #148CFF);
+  width: 746px;
+  height: 455px;
+  margin-left: -100px;
+  margin-top: 118px;
+  padding: 70px 202px 119px 81px;
+
+}
+
+.about__button{
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  margin: 43px 536px 66px 81px;
+}
+
+
+
+
+
+
+
+
+footer{
+  position: relative;
+  height: 146px;
+}
+
+footer.menu__list{
+  left: 70px;
+}
+
+.social{
+  position: absolute;
+  right: 250px;
+  top: 10px;
+}
+
+.social__item{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social__item:last-child{
+  margin-right: 0px;
+}
