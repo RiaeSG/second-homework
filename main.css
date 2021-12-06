@@ -5,8 +5,12 @@
 
 body{
   margin: 0;
-  background-color: gray;
+  background: #17191C;
   color: white;
+  line-height: 1.42;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html, body{
@@ -14,15 +18,19 @@ html, body{
   width: 100%;
 }
 
-ul, li{
-  list-style: none;
-  padding: 0;
+ul{
+    padding: 0;
   margin: 0;
+}
+
+ul li{
+  list-style: none;
+
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, p{
@@ -43,40 +51,39 @@ img {
   max-height: 100%;
 }
 
+.main-page-wrapper{
+  background: url("/img/nbgB77C1HAg\ 1.png") center top no-repeat, url("/img/56278948-888x544\ 2.png") center bottom no-repeat;
+ 
+}
+
 .container{
-  width: 1140px;
+  width: 1138px;
   margin: 0 auto;
 }
 
 .header{
-  height: 140px;
   position: relative;
-}
-
-.logo, .menu, .contacts{
-  position: absolute;
-}
-
-.logo, .menu{ 
-  top: 34px;
+  height: 140px; 
+  margin-bottom: 70px; 
 }
 
 .logo{
-  margin-right: 207px;
+  display: block;
+  position: absolute;
+  top: 34px;
 }
 
 .menu{  
-  left: 50%;
-  transform: translateX(-50%);
+  position: absolute;
+  top: 38px;
+  left: 419px;
 }
 
-.contacts{ 
-  top: 26.64px;
-  right: 0px;
-}
+
 
 .menu__item{
   display: inline-block;
+  vertical-align: middle;
   margin-right: 54px;
 }
 
@@ -84,17 +91,37 @@ img {
   margin-right: 0;
 }
 
+.menu__link{
+  font-size: 16px;
+}
+
+.contacts{ 
+  position: absolute;
+  top: 26.64px;
+  right: 0px;
+  text-align: right;
+}
+
+.contacts__phone{
+  font-style: normal;
+  font-size: 26px;
+}
+
+.contacts__title{
+  text-decoration: none;
+}
+
 
 .main-title{
+  width: 637px;
   text-align: left;
-  margin-left: 305px;
-  margin-right: 404px;
   margin-bottom: 193px;
 }
 
 .main-title__title{
   font-weight: 700;
   font-size: 60px;
+  line-height: 64px;
   margin-bottom: 21px;
 }
 
@@ -278,7 +305,7 @@ text-align: left;
 
 .about__content{
   background: linear-gradient(#8F00FF, #148CFF);
-  width: 746px;
+  width: 743px;
   height: 455px;
   margin-left: -100px;
   margin-top: 118px;
@@ -301,17 +328,25 @@ text-align: left;
 
 footer{
   position: relative;
-  height: 146px;
+  height: 203px;
 }
 
-footer.menu__list{
-  left: 70px;
+footer .logo{
+  display: block;
+  position: absolute;
+  top: 135px;
+}
+
+footer .menu{
+  position: absolute;
+  left: 270px;
+  top: 135px;
 }
 
 .social{
   position: absolute;
-  right: 250px;
-  top: 10px;
+  right: 260px;
+  top: 135px;
 }
 
 .social__item{
@@ -321,4 +356,16 @@ footer.menu__list{
 
 .social__item:last-child{
   margin-right: 0px;
+}
+
+footer .contacts{
+  position: absolute;
+  top: 135px;
+}
+
+.contacts__text{
+  font-size: 11px;
+  line-height: 20px;
+  letter-spacing: 0px;   
+  text-align: left;
 }
