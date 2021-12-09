@@ -112,14 +112,11 @@ img {
   margin-top: -5px;
 }
 
-.main-title__preview{
-  margin-bottom: 193px;
-}
 
 .main-title{
   width: 637px;
   text-align: left;
-  margin-bottom: 193px;
+  margin-bottom: 182px;
 }
 
 .main-title__title{
@@ -158,6 +155,7 @@ img {
 .week-news__last{
   font-size: 36px;
   margin-right: 9px;
+  font-weight: bold;
   
 }
 
@@ -172,13 +170,14 @@ img {
 
 .week-news__name{
   font-size: 24px;
-font-weight: 700;
+  font-weight: 700;
+  margin-top: 25px;
 }
 
 .week-news__time-length{
   font-size: 16px;
   padding-left: 10px;
-  margin-right: 24px;
+  margin-right: 50px;
   margin-top: 23px;
 }
 
@@ -187,7 +186,7 @@ font-weight: 700;
 }
 
 .week-news__time-icon{
-  margin-top: 24px;
+  margin-top: 15px;
 }
 
 .week-news__desc{
@@ -205,7 +204,7 @@ font-weight: 700;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  padding: 10px 40px;
+  padding: 10px 29px;
   cursor: pointer;
   border: 2px solid transparent;
   color: #FFFFFF;
@@ -224,14 +223,15 @@ font-weight: 700;
 
 .previous-games__title{
   font-size: 36px;
-  margin-top: 116px;
+  margin-top: 120px;
+  margin-bottom: 52px;
 }
 
 .previous-games__content{
   display: inline-block;
   width: 557px;
   position: relative;
-  margin-right: 10px;
+  margin-right: 16px;
 
 }
 
@@ -242,10 +242,9 @@ font-weight: 700;
 
 .previous-games__games-content{
   position: absolute;
-  bottom: 0px;
-  left: 46px;
+  left: 29px;
   right: 76px;
-  bottom: 17px;
+  bottom: 31px;
 }
 
 .previous-games__date-games{
@@ -266,7 +265,7 @@ line-height: 21px;
 
 .paginator{
   text-align: center;
-  margin-top: 57.5px;
+  margin-top: 47.5px;
 }
 
 .paginator__link, .paginator__display{
@@ -296,7 +295,7 @@ line-height: 21px;
 }
 
 .about{
-  margin-top: 131.5px;
+  margin-top: 146.5px;
 }
 
 .about__img, .about__content{ 
@@ -321,9 +320,8 @@ line-height: 21px;
   width: 743px;
   height: 455px;
   margin-left: -100px;
-  margin-top: 118px;
-  padding: 70px 202px 119px 81px;
-
+  margin-top: 96px;
+  padding: 70px 202px 119px 42px;
 }
 
 .about__button{
