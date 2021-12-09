@@ -5,7 +5,7 @@
 
 body{
   margin: 0;
-  background: #17191C;
+  background:url("/img/bg.png");
   color: white;
   line-height: 1.42;
   font-size: 16px;
@@ -52,7 +52,7 @@ img {
 }
 
 .main-page-wrapper{
-  background: url("/img/background1.png") center top no-repeat, url("/img/background2.png") center bottom no-repeat;
+  background: url("../img/background1.png") center top no-repeat, url("../img/background2.png") center bottom no-repeat;
 }
 
 .container{
@@ -79,11 +79,10 @@ img {
 }
 
 
-
 .menu__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 62px;
 }
 
 .menu__item:last-child{
@@ -107,9 +106,15 @@ img {
 }
 
 .contacts__title{
-  text-decoration: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: -5px;
 }
 
+.main-title__preview{
+  margin-bottom: 193px;
+}
 
 .main-title{
   width: 637px;
@@ -121,7 +126,7 @@ img {
   font-weight: 700;
   font-size: 60px;
   line-height: 64px;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 
 .main-title__info{
@@ -131,14 +136,14 @@ img {
 
 .main-title__examples{
   font-size: 14px;
-  margin-bottom: 193px;
+  
 }
 
 
 .week-news__conent-item{
   display: inline-block;
   background-color: white;
-  width: 305px;
+  width: 358px;
   height: 449px;
   margin-top: 54px;
   margin-right: 27px;
@@ -188,6 +193,7 @@ font-weight: 700;
 .week-news__desc{
   font-size: 14px;
   margin-top: 26.5px;
+  margin-bottom: 25.5px;
 }
 
 .button{
@@ -207,8 +213,8 @@ font-weight: 700;
 
 .button--border{
   border-color: #8F00FF;
-  background: transparent;
-  color: #8F00FF;
+  background: #8F00FF;
+  color: fff;
 }
 
 .week-news__example-preview{
@@ -218,7 +224,7 @@ font-weight: 700;
 
 .previous-games__title{
   font-size: 36px;
-  margin-top: 127px;
+  margin-top: 116px;
 }
 
 .previous-games__content{
@@ -246,7 +252,6 @@ font-weight: 700;
 
 font-size: 14px;
 line-height: 21px;
-text-align: left;
 }
 
 .previous-games__subtitle{
@@ -270,12 +275,23 @@ text-align: left;
 
 .paginator__display, .paginator__list, .paginator__item{
   display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display{
+  margin-right: 25px;
 }
 
 .paginator__link{
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.paginator__link--active{
   background: #8F00FF;
   color: #FFFFFF;
-  padding: 5px 11px;
   border-radius: 50%;
 }
 
@@ -297,9 +313,7 @@ text-align: left;
   font-size: 16px;
 }
 
-.about__title, .about__text{
-  padding-left: 81px;
-}
+
 
 
 .about__content{
@@ -315,7 +329,7 @@ text-align: left;
 .about__button{
   border-color: #FFFFFF;
   color: #FFFFFF;
-  margin: 43px 536px 66px 81px;
+  margin: 43px 536px 66px 0px;
 }
 
 
