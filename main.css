@@ -1,11 +1,11 @@
-*{
+* {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
   margin: 0;
-  background:url("../img/bg.png");
+  background: url("../img/bg.png");
   color: white;
   line-height: 1.42;
   font-size: 16px;
@@ -13,32 +13,36 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body{
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
-ul{
-    padding: 0;
-  margin: 0;
-}
-
-ul li{
-  list-style: none;
-
-}
-
-a{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-h1, h2, h3, p{
+ul {
   padding: 0;
   margin: 0;
 }
 
-button{
+ul li {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
   background: transparent;
   color: black;
   padding: 0;
@@ -51,61 +55,61 @@ img {
   max-height: 100%;
 }
 
-.main-page-wrapper{
+.main-page-wrapper {
   background: url("../img/background1.png") center top no-repeat, url("../img/background2.png") center bottom no-repeat;
 }
 
-.container{
+.container {
   width: 1138px;
   margin: 0 auto;
 }
 
-.header{
+.header {
   position: relative;
-  height: 140px; 
-  margin-bottom: 70px; 
+  height: 140px;
+  margin-bottom: 70px;
 }
 
-.logo{
+.logo {
   display: block;
   position: absolute;
   top: 34px;
 }
 
-.menu{  
+.menu {
   position: absolute;
   top: 38px;
   left: 419px;
 }
 
 
-.menu__item{
+.menu__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 62px;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
   margin-right: 0;
 }
 
-.menu__link{
+.menu__link {
   font-size: 16px;
 }
 
-.contacts{ 
+.contacts {
   position: absolute;
   top: 26.64px;
   right: 0px;
   text-align: right;
 }
 
-.contacts__phone{
+.contacts__phone {
   font-style: normal;
   font-size: 26px;
 }
 
-.contacts__title{
+.contacts__title {
   text-decoration: underline;
   font-style: normal;
   font-size: 13px;
@@ -113,89 +117,93 @@ img {
 }
 
 
-.main-title{
+.main-title {
   width: 637px;
   text-align: left;
   margin-bottom: 182px;
 }
 
-.main-title__title{
+.main-title__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 64px;
   margin-bottom: 24px;
 }
 
-.main-title__info{
+.main-title__info {
   margin-bottom: 94px;
   font-size: 21px;
 }
 
-.main-title__examples{
+.main-title__examples {
   font-size: 14px;
-  
+
 }
 
 
-.week-news__conent-item{
+.week-news__conent-item {
   display: inline-block;
   background-color: white;
   width: 358px;
   height: 449px;
   margin-top: 54px;
   margin-right: 27px;
-  border-radius: 5px; 
+  border-radius: 5px;
   color: black;
 }
 
-.week-news__conent-item:last-child{
+.week-news__conent-item:last-child {
   margin-right: 0;
 }
 
-.week-news__last{
+.week-news__last {
   font-size: 36px;
   margin-right: 9px;
   font-weight: bold;
-  
+
 }
 
-.week-news__name, .game-length, .week-news__example-preview, .week-news__desc, .week-news__time-icon{
+.week-news__name,
+.game-length,
+.week-news__example-preview,
+.week-news__desc,
+.week-news__time-icon {
   padding-left: 22px;
 }
 
-.week-news__desc{
+.week-news__desc {
   color: #303030;
   ;
 }
 
-.week-news__name{
+.week-news__name {
   font-size: 24px;
   font-weight: 700;
   margin-top: 25px;
 }
 
-.week-news__time-length{
+.week-news__time-length {
   font-size: 16px;
   padding-left: 10px;
   margin-right: 50px;
   margin-top: 23px;
 }
 
-.week-news__q-a-icon{
+.week-news__q-a-icon {
   margin-right: 10px;
 }
 
-.week-news__time-icon{
+.week-news__time-icon {
   margin-top: 15px;
 }
 
-.week-news__desc{
+.week-news__desc {
   font-size: 14px;
   margin-top: 26.5px;
   margin-bottom: 25.5px;
 }
 
-.button{
+.button {
   background: #8F00FF;
   border-radius: 5px;
 
@@ -210,24 +218,24 @@ img {
   color: #FFFFFF;
 }
 
-.button--border{
+.button--border {
   border-color: #8F00FF;
   background: #8F00FF;
   color: fff;
 }
 
-.week-news__example-preview{
+.week-news__example-preview {
   margin-left: 22px;
 }
 
 
-.previous-games__title{
+.previous-games__title {
   font-size: 36px;
   margin-top: 120px;
   margin-bottom: 52px;
 }
 
-.previous-games__content{
+.previous-games__content {
   display: inline-block;
   width: 557px;
   position: relative;
@@ -236,78 +244,82 @@ img {
 }
 
 
-.previous-games__content:last-child{
+.previous-games__content:last-child {
   margin-right: 0px;
 }
 
-.previous-games__games-content{
+.previous-games__games-content {
   position: absolute;
   left: 29px;
   right: 76px;
   bottom: 31px;
 }
 
-.previous-games__date-games{
+.previous-games__date-games {
 
-font-size: 14px;
-line-height: 21px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
-.previous-games__subtitle{
+.previous-games__subtitle {
   font-size: 24px;
   font-weight: 700;
   margin-top: 12px;
 }
 
-.previous-games__news{
+.previous-games__news {
   margin-top: 1px;
 }
 
-.paginator{
+.paginator {
   text-align: center;
   margin-top: 47.5px;
 }
 
-.paginator__link, .paginator__display{
+.paginator__link,
+.paginator__display {
   font-size: 16px;
 }
 
-.paginator__display, .paginator__list, .paginator__item{
+.paginator__display,
+.paginator__list,
+.paginator__item {
   display: inline-block;
   vertical-align: middle;
 }
 
-.paginator__display{
+.paginator__display {
   margin-right: 25px;
 }
 
-.paginator__link{
+.paginator__link {
   display: block;
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
 
-.paginator__link--active{
+.paginator__link--active {
   background: #8F00FF;
   color: #FFFFFF;
   border-radius: 50%;
 }
 
-.about{
+.about {
   margin-top: 146.5px;
 }
 
-.about__img, .about__content{ 
+.about__img,
+.about__content {
   display: inline-block;
   vertical-align: top;
 }
 
-.about__title{
+.about__title {
   font-size: 36px;
 }
 
-.about__text{
+.about__text {
   padding-top: 37px;
   font-size: 16px;
 }
@@ -315,7 +327,7 @@ line-height: 21px;
 
 
 
-.about__content{
+.about__content {
   background: linear-gradient(#8F00FF, #148CFF);
   width: 743px;
   height: 455px;
@@ -324,7 +336,7 @@ line-height: 21px;
   padding: 70px 202px 119px 42px;
 }
 
-.about__button{
+.about__button {
   border-color: #FFFFFF;
   color: #FFFFFF;
   margin: 43px 536px 66px 0px;
@@ -337,46 +349,46 @@ line-height: 21px;
 
 
 
-footer{
+footer {
   position: relative;
   height: 203px;
 }
 
-footer .logo{
+footer .logo {
   display: block;
   position: absolute;
   top: 135px;
 }
 
-footer .menu{
+footer .menu {
   position: absolute;
   left: 270px;
   top: 135px;
 }
 
-.social{
+.social {
   position: absolute;
   right: 260px;
   top: 135px;
 }
 
-.social__item{
+.social__item {
   display: inline-block;
   margin-right: 10px;
 }
 
-.social__item:last-child{
+.social__item:last-child {
   margin-right: 0px;
 }
 
-footer .contacts{
+footer .contacts {
   position: absolute;
   top: 135px;
 }
 
-.contacts__text{
+.contacts__text {
   font-size: 11px;
   line-height: 20px;
-  letter-spacing: 0px;   
+  letter-spacing: 0px;
   text-align: left;
 }
