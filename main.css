@@ -337,7 +337,7 @@ img {
 }
 
 .about__button {
-  border-color: #FFFFFF;
+  border-color: transparent;
   color: #FFFFFF;
   margin: 43px 536px 66px 0px;
 }
