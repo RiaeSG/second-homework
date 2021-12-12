@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz Box</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,26 +16,35 @@
   <div class="wrapper main-page-wrapper">
     <div class="container">
       <header class="header">
-        <a href="/" class="logo">
-          <img src="./img/Quiz-box.png" alt="Здесь будет лого" class="logo__pic">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Игры</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:+7(8007003030" class=contacts__phone>8 800 700 30 30</a>
-          <p class=contacts__title title="ПН-ВС 9:00-20:00">График работы</p>
-        </address>
+        <div class="header__col"> 
+          <a href="/" class="logo">
+            <img src="./img/Quiz-box.png" alt="Здесь будет лого" class="logo__pic">
+          </a>
+        </div>
+        <div class="header__col header__col--center"> 
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="games.html" class="menu__link">Игры</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__col"> 
+          <address class="contacts">
+            <a href="tel:+7(8007003030" class=contacts__phone>8 800 700 30 30</a>
+            <p class=contacts__title title="ПН-ВС 9:00-20:00">График работы</p>
+          </address>
+        </div>
+       
+        
+       
       </header>
       <main class="main-title">
         <div class="main-title__preview">
@@ -97,9 +107,9 @@
       <div class="previous-games">
         <h2 class="previous-games__title">Прошедшие игры</h2>
         <ul class="previous-games__list">
-          <li class="previous-games__content">
-            <img src="./img/kto_gde_kviz__moskva_1_qg_large 1.png" alt="Прошедие игры"
-              class="previous-games__past-games">
+          <li class="previous-games__content previous-games--left">
+            <!-- <img src="./img/kto_gde_kviz__moskva_1_qg_large 1.png" alt="Прошедие игры"
+              class="previous-games__past-games"> -->
             <div class="previous-games__games-content">
               <time class="previous-games__date-games">1 января</time>
               <div class="previous-games__subtitle">Новогодний квиз</div>
@@ -108,10 +118,10 @@
                 благ!</div>
             </div>
           </li>
-          <li class="previous-games__content">
-            <img src="./img/3187ee0fc9499a1ef1583ff3c981cf5a 1.png" alt="Прошедие игры"
-              class="previous-games__past-games">
-            <div class="previous-games__games-content">
+          <li class="previous-games__content previous-games--right">
+            <!-- <img src="./img/3187ee0fc9499a1ef1583ff3c981cf5a 1.png" alt="Прошедие игры"
+              class="previous-games__past-games"> -->
+            <div class="previous-games__games-content ">
               <time class="previous-games__date-games">8 марта</time>
               <div class="previous-games__subtitle">Весенняя игра</div>
               <div class="previous-games__news">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех
@@ -161,21 +171,19 @@
         <a href="/" class="logo">
           <img src="./img/Quiz-box.png" alt="Здесь будет лого" class="logo__pic">
         </a>
-        <aside class="topbar">
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="#" class="menu__link">Главная</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Игры</a>
+                <a href="games.html" class="menu__link">Игры</a>
               </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">Отзывы</a>
               </li>
             </ul>
-          </nav>
-        </aside>
+          </nav>       
         <div class="social">
           <ul class="social__list">
             <li class="social__item">
